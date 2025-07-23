@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout from GitHub') {
             steps {
-                git branch: 'main', url: 'https://github.com/simpostor/springboot-rest-app'
+                git branch: 'master', url: 'https://github.com/simpostor/springboot-rest-app'
             }
         }
 
